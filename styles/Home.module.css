@@ -29,7 +29,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #F5F5DC;
   text-decoration: none;
 }
 
@@ -83,13 +83,15 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+  min-width: 300px;
+  min-height: 150px;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #03DAC5;
+  border-color: #03DAC5;
 }
 
 .card h2 {
@@ -101,6 +103,8 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+  min-width: auto;
+  min-height: 130;
 }
 
 .logo {
@@ -127,3 +131,4 @@
     filter: invert(1);
   }
 }
+
