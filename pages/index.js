@@ -28,7 +28,7 @@ export default function Home() {
         </h1>
      
         <p className={styles.description}>
-          Software develporer, using{' '}
+          Software developer, using{' '}
           <code className={styles.code}>Dart, Flutter, Swift, JavaScript, Python</code>
         </p>
 
