@@ -39,7 +39,7 @@ export default function Home() {
           </a>
 
           <a href="https://www.linkedin.com/in/eeroilmarivilkuna/" className={styles.card}>
-            <h2>Linked In &rarr;</h2>
+            <h2>LinkedIn &rarr;</h2>
             <p>Check out my LinkedIn-profile</p>
           </a>
         </div>
